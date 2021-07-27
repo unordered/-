@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "프로카데미", "프로카데미\프로카데미.vcxproj", "{0CB8FC74-E22A-47FE-AA82-1E86E5D9D140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "프로카데미과제", "프로카데미과제\프로카데미과제.csproj", "{917BCA5D-9420-4C27-9B25-33172D3233EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CB8FC74-E22A-47FE-AA82-1E86E5D9D140}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{0CB8FC74-E22A-47FE-AA82-1E86E5D9D140}.Debug|x64.ActiveCfg = Debug|x64
+		{0CB8FC74-E22A-47FE-AA82-1E86E5D9D140}.Debug|x64.Build.0 = Debug|x64
+		{0CB8FC74-E22A-47FE-AA82-1E86E5D9D140}.Debug|x86.ActiveCfg = Debug|Win32
+		{0CB8FC74-E22A-47FE-AA82-1E86E5D9D140}.Debug|x86.Build.0 = Debug|Win32
+		{0CB8FC74-E22A-47FE-AA82-1E86E5D9D140}.Release|Any CPU.ActiveCfg = Release|Win32
+		{0CB8FC74-E22A-47FE-AA82-1E86E5D9D140}.Release|x64.ActiveCfg = Release|x64
+		{0CB8FC74-E22A-47FE-AA82-1E86E5D9D140}.Release|x64.Build.0 = Release|x64
+		{0CB8FC74-E22A-47FE-AA82-1E86E5D9D140}.Release|x86.ActiveCfg = Release|Win32
+		{0CB8FC74-E22A-47FE-AA82-1E86E5D9D140}.Release|x86.Build.0 = Release|Win32
+		{917BCA5D-9420-4C27-9B25-33172D3233EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917BCA5D-9420-4C27-9B25-33172D3233EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917BCA5D-9420-4C27-9B25-33172D3233EE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{917BCA5D-9420-4C27-9B25-33172D3233EE}.Debug|x64.Build.0 = Debug|Any CPU
+		{917BCA5D-9420-4C27-9B25-33172D3233EE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{917BCA5D-9420-4C27-9B25-33172D3233EE}.Debug|x86.Build.0 = Debug|Any CPU
+		{917BCA5D-9420-4C27-9B25-33172D3233EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917BCA5D-9420-4C27-9B25-33172D3233EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{917BCA5D-9420-4C27-9B25-33172D3233EE}.Release|x64.ActiveCfg = Release|Any CPU
+		{917BCA5D-9420-4C27-9B25-33172D3233EE}.Release|x64.Build.0 = Release|Any CPU
+		{917BCA5D-9420-4C27-9B25-33172D3233EE}.Release|x86.ActiveCfg = Release|Any CPU
+		{917BCA5D-9420-4C27-9B25-33172D3233EE}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6BF9601-BD01-44FB-91E5-77223E803338}
+	EndGlobalSection
+EndGlobal
