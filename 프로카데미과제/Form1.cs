@@ -80,6 +80,7 @@ namespace 프로카데미과제
 
         Graphics g;
         int call = 0;
+        object
         private void recursivePointing(int xPos, int yPos)
         {
             call++;

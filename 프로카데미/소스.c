@@ -1,19 +1,30 @@
 #include <stdio.h>
+#include <Windows.h>
+#include <timeapi.h>
 
-int add(long a, long b)
-{
-	long x = a;
-	long y = b;
-	return (x + y);
-}
+#pragma comment(lib,"winmm.lib")
 
 int main()
 {
-	long a = 1;
-	long b = 2;
+	int start = (int)timeGetTime();
 
-	printf("%d\n", add(a, b));
+	int hit[5] = { 0 };
+	for (;;)
+	{
+		system("cls");
 
+		int e = (int)timeGetTime()- start;
+		printf("%d ms\n", e);
+		printf("3000 ms: %d\n", e);
+		
+		if (_kbhit())
+		{
+			printf("hit\n", e, hit);
+			_getch();
+
+		}
+
+	}
 
 	return 0;
 }
