@@ -6,7 +6,7 @@
 #include "Console.h"
 #include "CScreenBuffer.h"
 
-
+// Screen.
 
 
 CScreenBuffer ScreenBuffer;
